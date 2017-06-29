@@ -225,5 +225,6 @@ section:last-child {
 @media print {
     #cv {
         width: 100%;
+        font-size: 85%;
     }
 }
