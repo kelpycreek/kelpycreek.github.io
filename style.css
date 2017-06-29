@@ -112,6 +112,7 @@ section:last-child {
 
 .sectionTitle {
 	float: left;
+    text-align: center;
 	width: 25%;
     height: 0;
     transform: rotate(90deg);
@@ -225,7 +226,7 @@ section:last-child {
 @media print {
     #cv {
         width: 100%;
-        font-size: 90%;
+        font-size: 100%;
     }
 }
 
