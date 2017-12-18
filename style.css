@@ -112,9 +112,12 @@ section {
 }
 
 
-
 section:last-child {
 	padding: 20px 0 10px;
+}
+
+.skillTitle {
+    font-weight: bold;
 }
 
 .sectionTitle {
@@ -131,10 +134,16 @@ section:last-child {
     margin-left: 20px;
 }
 
+.jobHeader {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	margin-top: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
 
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.3em;
 	color: #cf8a05;
     margin-left: 0px
@@ -151,12 +160,18 @@ section:last-child {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
+    font-weight: 400;
 }
 
 .skills {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
+    font-weight: 400;
+}
+
+.center {
+    text-align: left
 }
 
 @media print {
